@@ -1,0 +1,23 @@
+[project]
+name = "routemind"
+version = "0.0.1"
+description = "자연어로 요청하는 배송 최적화 어시스턴트 (포트폴리오)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv]
+# 라이브러리로 배포하지 않고 저장소 루트에서 바로 실행하는 프로젝트
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
