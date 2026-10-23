@@ -169,7 +169,7 @@ routemind/
 ├── llm/             # 5단계: 요청 해석기, 결과 요약
 ├── app/             # 5단계: FastAPI, Streamlit
 ├── experiments/     # 벤치마크·실험 노트북과 결과표
-├── docs/            # 주간 학습 로그, 블로그 초안
+├── docs/            # 주별 학습 폴더(week-XX/: 회고·개념 노트), 웹 Claude 학습 안내, 블로그 초안
 └── tests/
 ```
 
